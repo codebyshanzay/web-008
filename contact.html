@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact — Shanzay Sarwar</title>
+  <meta name="description" content="Contact information and embedded Google Map">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner"><h1>Contact</h1></div>
+  </header>
+
+  <nav class="main-nav">
+    <div class="container">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="hobbies.html">My Hobbies</a></li>
+        <li><a href="media.html">My Favorite Media</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="container">
+    <section class="contact-grid">
+
+      <!-- Contact Form -->
+      <form class="contact-form" action="#" method="post">
+        <h2>Get in touch</h2>
+
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" value="Shanzay Sarwar" required>
+
+        <label for="desig">Designation</label>
+        <input id="desig" name="designation" type="text" placeholder="e.g. Student">
+
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" placeholder="shanzay@example.com" required>
+
+        <label for="phone">Phone</label>
+        <input id="phone" name="phone" type="tel" placeholder="+92 3xx xxx xxxx">
+
+        <button type="submit" class="btn">Send</button>
+      </form>
+
+      <!-- Map + Info Section -->
+      <div class="map-and-info">
+        <h2>Location</h2>
+        <div class="map-wrap">
+          <iframe src="https://maps.google.com/maps?q=Lahore%2C%20Pakistan&t=&z=12&ie=UTF8&iwloc=&output=embed" allowfullscreen></iframe>
+        </div>
+
+        <h3>Contact Details</h3>
+        <p><strong>Name:</strong> Shanzay Sarwar</p>
+        <p><strong>Designation:</strong> Student</p>
+        <p><strong>Email:</strong> shanzay@example.com</p>
+        <p><strong>Phone:</strong> +92 300 0000000</p>
+
+        <h3>Group Members (Names & IDs)</h3>
+        <ul>
+          <li>Shanzay Sarwar — 38099</li>
+          <li>Kainat Altaf — 38286</li>
+        </ul>
+      </div>
+
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container"><p>© 2025 Shanzay Sarwar — CSC 337</p></div>
+  </footer>
+</body>
+</html>
